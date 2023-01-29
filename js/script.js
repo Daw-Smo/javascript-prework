@@ -33,15 +33,15 @@ function buttonClicked(argButtonName) {
                 function displayResult(argPlayerMove, argComputerMove) {
                     console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
                     if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
-                    printMessage('Wygrywasz!');
+                    printMessage('WYGRYWASZ!');
                     } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
-                    printMessage('Wygrywasz!');
+                    printMessage('WYGRYWASZ!');
                     } else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
-                    printMessage('Wygrywasz!');
+                    printMessage('WYGRYWASZ!');
                     } else if (argPlayerMove == argComputerMove) {
-                    printMessage('Remis');
+                    printMessage('REMIS');
                     } else {
-                    printMessage('Przegrywasz :(');
+                    printMessage('PRZEGRYWASZ :(');
                     }
                     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
                 }

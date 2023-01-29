@@ -1,0 +1,43 @@
+#buttons {
+    text-align: center;
+}
+
+#button-rock {
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:red;
+    border-color: darkred;
+    border-radius: 10px;
+}
+
+#button-paper {
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:green;
+    border-color: darkgreen;
+    border-radius: 10px;
+}
+
+#button-scissors {
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:blue;
+    border-color: darkblue;
+    border-radius: 10px;
+}
+
+#messages {
+    text-align: center;
+    font-size: 38px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
